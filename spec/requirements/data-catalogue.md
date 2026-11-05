@@ -129,9 +129,9 @@ Every field of a Table Schema has a role: **identifier**, **time**, **measure** 
 2. Otherwise the convention applies: key fields from `primaryKey` are identifiers, a key field with a time type (`year`, `yearmonth`, `date`) is the time, all other fields are measures.
 3. If several fields qualify as time by convention, the role must be stated explicitly; otherwise the building block rejects the schema.
 
-{% hint style="warning" %}
-**Open:** whether Data Package Standard 2.0 allows the additional property `role` in a Table Schema is still to be checked.
-{% endhint %}
+> **Warning**
+>
+> **Open:** whether Data Package Standard 2.0 allows the additional property `role` in a Table Schema is still to be checked.
 
 ## Code lists
 

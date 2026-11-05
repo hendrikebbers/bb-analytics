@@ -135,9 +135,9 @@ Identifiers are case-sensitive strings. Points in time follow RFC 3339 in UTC. C
 | `fields[].categories` | array | N | Permitted codes, as strings or as objects with `value` and `label`; source of the code list `<datasetId>.<field>` | Table Schema `categories` |
 | `primaryKey` | array of strings | N | Key fields; used to derive field roles | Table Schema `primaryKey` |
 
-{% hint style="warning" %}
-**Open:** whether Data Package Standard 2.0 allows the additional property `role` is still to be checked. The draft also lists a _unit_ per field; Table Schema has no standard property for it, so how it is stated is still to be decided.
-{% endhint %}
+> **Warning**
+>
+> **Open:** whether Data Package Standard 2.0 allows the additional property `role` is still to be checked. The draft also lists a _unit_ per field; Table Schema has no standard property for it, so how it is stated is still to be decided.
 
 ### 7.2.4 Indicator Definition
 

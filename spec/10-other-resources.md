@@ -18,15 +18,15 @@ The specifications are published at [specs.govstack.global](https://specs.govsta
 
 The following decisions shape this version of the specification.
 
-The choice of the central standards is recorded in architecture decision records in the folder [`ADR/`](../ADR/):
+The choice of the central standards is recorded in architecture decision records in the folder [`adr/`](../adr/):
 
 | ADR | Decision |
 | --- | -------- |
-| [ANALYTICS-ADR-1](../ADR/ANALYTICS-ADR-1.md) | Data Package Standard 2.0 to describe datasets and deliver their versions |
-| [ANALYTICS-ADR-2](../ADR/ANALYTICS-ADR-2.md) | DCAT 3 for the catalogue, linked through a JSON-LD context |
-| [ANALYTICS-ADR-3](../ADR/ANALYTICS-ADR-3.md) | JSON-stat 2.0 as output format for indicator values, with SDMX as the model |
-| [ANALYTICS-ADR-4](../ADR/ANALYTICS-ADR-4.md) | W3C PROV-O in JSON-LD for the provenance record |
-| [ANALYTICS-ADR-5](../ADR/ANALYTICS-ADR-5.md) | CloudEvents 1.0 for publication events |
+| [ANALYTICS-ADR-1](../adr/ANALYTICS-ADR-1.md) | Data Package Standard 2.0 to describe datasets and deliver their versions |
+| [ANALYTICS-ADR-2](../adr/ANALYTICS-ADR-2.md) | DCAT 3 for the catalogue, linked through a JSON-LD context |
+| [ANALYTICS-ADR-3](../adr/ANALYTICS-ADR-3.md) | JSON-stat 2.0 as output format for indicator values, with SDMX as the model |
+| [ANALYTICS-ADR-4](../adr/ANALYTICS-ADR-4.md) | W3C PROV-O in JSON-LD for the provenance record |
+| [ANALYTICS-ADR-5](../adr/ANALYTICS-ADR-5.md) | CloudEvents 1.0 for publication events |
 
 All of them are proposed and not yet decided by the working group. Further decisions:
 

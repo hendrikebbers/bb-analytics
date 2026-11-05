@@ -192,9 +192,9 @@ Content-Type: application/json
 
 The building block announces `indicator.definition.published`; in the example nobody has subscribed to it. A definition in a language the building block cannot execute is rejected.
 
-{% hint style="info" %}
-The exact VTL syntax of the example is to be checked against the VTL reference manual before use.
-{% endhint %}
+> **Note**
+>
+> The exact VTL syntax of the example is to be checked against the VTL reference manual before use.
 
 ## 9.6 Calculate an indicator
 
@@ -395,8 +395,8 @@ sequenceDiagram
 
 ## 9.10 Open points
 
-{% hint style="warning" %}
-* **Signature method for events.** The specification requires events to be signed but does not yet name a method. The requirement only becomes testable once a method is defined.
-* **Transfer of the Data Package.** The examples use a multipart request; whether a ZIP archive or references to files are also allowed is not yet decided.
-* **Access control.** The workflows only assume that the dashboard may read the indicator but not the dataset. Whether this is governed by access classes of the building block or by the platform alone is an open decision.
-{% endhint %}
+> **Warning**
+>
+> * **Signature method for events.** The specification requires events to be signed but does not yet name a method. The requirement only becomes testable once a method is defined.
+> * **Transfer of the Data Package.** The examples use a multipart request; whether a ZIP archive or references to files are also allowed is not yet decided.
+> * **Access control.** The workflows only assume that the dashboard may read the indicator but not the dataset. Whether this is governed by access classes of the building block or by the platform alone is an open decision.

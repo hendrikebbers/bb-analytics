@@ -1,0 +1,30 @@
+# The existing GitBook chapters retain their source paths and order.
+toc:
+  spec:
+    - README.md
+    - 1-version-history.md
+    - 2-description.md
+    - 3-terminology.md
+    - 4-key-digital-functionalities.md
+    - 5-cross-cutting-requirements.md
+    - 6-functional-requirements.md
+    - requirements/data-ingestion.md
+    - requirements/data-catalogue.md
+    - requirements/indicator-calculation.md
+    - requirements/data-access.md
+    - requirements/publication-events.md
+    - 7-data-structures.md
+    - 8-service-apis.md
+    - 9-workflows.md
+    - 10-other-resources.md
+  resources:
+    - api-reference.md
+  adr:
+    - ANALYTICS-ADR-1.md
+    - ANALYTICS-ADR-2.md
+    - ANALYTICS-ADR-3.md
+    - ANALYTICS-ADR-4.md
+    - ANALYTICS-ADR-5.md
+  api:
+    - README.md
+    - common/README.md

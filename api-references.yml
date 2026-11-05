@@ -1,0 +1,5 @@
+references:
+  - id: analytics
+    page: resources/api-reference.md
+    contract: api/openapi.yaml
+    role: normative

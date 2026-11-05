@@ -2,9 +2,9 @@
 
 This section names the functionalities of the Analytics Building Block: the services it provides to actors outside of it. Each functionality is described, together with its requirements, in its own file in the folder `requirements/` (see [Section 6](6-functional-requirements.md)). Each functionality realises one or more of the capabilities described in [Section 2.3](2-description.md) and is either part of the **core**, which every conformant solution meets, or of a named **extension**, which a solution may claim in addition.
 
-{% hint style="info" %}
-Capabilities and extensions are declared in [`metadata.yml`](metadata.yml), following the GovSpecs 2.0 model (ARCH-TDR-1, ARCH-ADR-7). These decision records are proposed and not yet decided.
-{% endhint %}
+> **Note**
+>
+> Capabilities and extensions are declared in [`metadata.yml`](metadata.yml), following the GovSpecs 2.0 model (ARCH-TDR-1, ARCH-ADR-7). These decision records are proposed and not yet decided.
 
 ## 4.1 Core functionalities
 

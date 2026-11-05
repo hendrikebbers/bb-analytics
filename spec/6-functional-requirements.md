@@ -2,9 +2,9 @@
 
 The functional requirements of the Analytics Building Block are organised by functionality. Each functionality from [Section 4](4-key-digital-functionalities.md) has its own file in the folder `requirements/`. The file carries the requirements in its YAML front matter and describes the functionality, its workflows and its data structures in the body.
 
-{% hint style="info" %}
-This form follows the GovSpecs 2.0 requirements model (ARCH-ADR-5 for status and level, ARCH-ADR-7 for core and extensions). These decision records are proposed and not yet decided; the `interaction` classifier has not yet been discussed by the Architecture Working Group.
-{% endhint %}
+> **Note**
+>
+> This form follows the GovSpecs 2.0 requirements model (ARCH-ADR-5 for status and level, ARCH-ADR-7 for core and extensions). These decision records are proposed and not yet decided; the `interaction` classifier has not yet been discussed by the Architecture Working Group.
 
 ## 6.1 Functionalities
 

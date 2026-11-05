@@ -67,9 +67,9 @@ The core consists of five functionalities: **data ingestion**, **data catalogue*
 
 The core is deliberately small, so that a wide range of products can fulfil it. Everything that a conformant product may legitimately lack is placed in a named **extension**. A product may claim an extension in addition to the core; it claims it entirely or not at all, and must then meet all of its REQUIRED requirements. GovMarket shows claimed extensions as a fact (for example _"Analytics 1.0: Core, Source Reconciliation, Proactive Triggers"_), not as a score.
 
-{% hint style="info" %}
-The split into capabilities, core and extensions follows the GovSpecs 2.0 model (ARCH-ADR-7, ARCH-TDR-1). These decision records are proposed and not yet decided by the Architecture Committee.
-{% endhint %}
+> **Note**
+>
+> The split into capabilities, core and extensions follows the GovSpecs 2.0 model (ARCH-ADR-7, ARCH-TDR-1). These decision records are proposed and not yet decided by the Architecture Committee.
 
 This version specifies only the core. Possible extensions are declared in [`metadata.yml`](metadata.yml) and listed in [Section 4.2](4-key-digital-functionalities.md); their requirements will be written in later versions.
 
