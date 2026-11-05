@@ -251,6 +251,6 @@ ur,2,c-501,R02,2024,3.7,P,0,false
 
 Read permissions are governed by the access management of the platform. The building block returns no data and sends no events that the caller is not authorised for.
 
-{% hint style="warning" %}
-**Open:** whether the building block should maintain its own access classes for datasets and indicators (with the strictest class inherited by indicators and a deliberate release of aggregated values), or leave read permissions entirely to the platform, is not yet decided.
-{% endhint %}
+> **Warning**
+>
+> **Open:** whether the building block should maintain its own access classes for datasets and indicators (with the strictest class inherited by indicators and a deliberate release of aggregated values), or leave read permissions entirely to the platform, is not yet decided.

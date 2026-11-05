@@ -8,9 +8,9 @@ The [GovStack architecture](https://specs.govstack.global/architecture) describe
 
 The core interface is defined in [`api/openapi.yaml`](../api/openapi.yaml) (OpenAPI 3.1, version `1.0.0-draft`). It covers the five core functionalities and follows the [GovStack Cross-BB API Design Guide](https://github.com/jeremi/govstack-api-design-guide) version `0.3.0-draft`. Requirement traceability is kept in [`api/coverage.yaml`](../api/coverage.yaml); the shared GovStack schemas are vendored in [`api/common/`](../api/common/).
 
-{% hint style="info" %}
-Once the OpenAPI file is published at its final location, it will be embedded here with the GitBook OpenAPI widget, linking to the raw URL of the file.
-{% endhint %}
+> **Note**
+>
+> Once the OpenAPI file is published at its final location, it will be embedded here with the GitBook OpenAPI widget, linking to the raw URL of the file.
 
 **Basics that apply to all operations:**
 
@@ -108,10 +108,10 @@ The events themselves are defined as `webhooks` in the OpenAPI definition. Each 
 
 ## 8.3 Open points
 
-{% hint style="warning" %}
-* **Transfer of the Data Package.** The OpenAPI file specifies a multipart request; whether a ZIP archive or references to files should also be allowed is not yet decided.
-* **Plain CSV delivery.** A delivery of a CSV file without a Data Package has been proposed but not decided.
-* **Access classes.** Whether the building block maintains its own access classes for datasets and indicators is an open decision (see [Data Access](requirements/data-access.md)).
-* **Address of the JSON-LD context document.** To be defined by the working group.
-* **Registration of the BB code.** The code `analytics` used in problem types, scopes and event types still has to be agreed with the GovStack API Working Group.
-{% endhint %}
+> **Warning**
+>
+> * **Transfer of the Data Package.** The OpenAPI file specifies a multipart request; whether a ZIP archive or references to files should also be allowed is not yet decided.
+> * **Plain CSV delivery.** A delivery of a CSV file without a Data Package has been proposed but not decided.
+> * **Access classes.** Whether the building block maintains its own access classes for datasets and indicators is an open decision (see [Data Access](requirements/data-access.md)).
+> * **Address of the JSON-LD context document.** To be defined by the working group.
+> * **Registration of the BB code.** The code `analytics` used in problem types, scopes and event types still has to be agreed with the GovStack API Working Group.

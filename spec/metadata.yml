@@ -1,3 +1,14 @@
+name: Analytics
+abstract: >-
+  Working draft for shared datasets, a data catalogue, traceable indicator
+  calculations and reusable statistical outputs. This preview is not an
+  approved GovStack specification.
+repository: https://github.com/GovStackWorkingGroup/bb-analytics
+versions:
+  - version: unversioned-draft
+    short_description: Hendrik's proposed Analytics specification, under discussion in pull request 1.
+    latest: true
+
 # Capabilities and extensions of the Analytics Building Block (GovSpecs 2.0 model,
 # ARCH-TDR-1 and ARCH-ADR-7, both proposed and not yet decided).
 # Functionalities are the files in requirements/ and refer to these ids in `realises` and `extension`.

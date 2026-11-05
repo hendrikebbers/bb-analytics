@@ -113,9 +113,9 @@ The delivery is answered with `202 Accepted` and a **receipt**. Validation runs 
 
 The header `Idempotency-Key` prevents a duplicate version if a delivery is repeated after a network error.
 
-{% hint style="warning" %}
-**Open:** how the Data Package is transferred over HTTP (multipart request, ZIP archive or references to files) is not yet decided. It belongs in the OpenAPI definition.
-{% endhint %}
+> **Warning**
+>
+> **Open:** how the Data Package is transferred over HTTP (multipart request, ZIP archive or references to files) is not yet decided. It belongs in the OpenAPI definition.
 
 ## Formats and character encoding
 
