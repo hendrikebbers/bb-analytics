@@ -58,5 +58,19 @@ manual dispatches. It pins the renderer to a published full commit; an optional
 It uploads the checked static site as `analytics-specification-site` for review.
 All pages carry an unofficial preview notice and `noindex, nofollow` metadata.
 
-The workflow has read-only repository permissions and no deployment step. Pages
-configuration and publishing a hosted preview are separate maintainer actions.
+The check workflow has read-only repository permissions and no deployment step.
+
+The separate `preview-pages.yml` workflow publishes the
+[hosted review preview](https://jeremi.github.io/bb-analytics/) from
+`docs/govstack-site-rendering` in `jeremi/bb-analytics` only. Both its build and
+deployment jobs check the exact repository and branch. It runs the consumer
+tests and shared checked build before uploading a Pages artifact. Only the
+deployment job receives `pages: write` and `id-token: write` permissions.
+
+Pages uses the GitHub Actions publishing source. The `github-pages` environment
+allows deployments from this preview branch. Pushes to the branch update the
+site automatically. Manual dispatch requires the workflow file on the fork's
+default branch, so it is unavailable in this branch-only setup. Neither Hendrik's
+fork nor the GovStack repository deploys this preview.
+Remove the fork-specific preview workflow before upstream adoption; the
+build-only check workflow can remain.

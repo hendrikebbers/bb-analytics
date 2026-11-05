@@ -29,7 +29,12 @@ npm --prefix specification-site run preview -- --base /bb-analytics/ --unofficia
 
 The preview is served at `http://127.0.0.1:4321/bb-analytics/`. Pull requests run
 the same checked build and upload a downloadable `analytics-specification-site`
-artifact. Hosting and Pages deployment are not enabled by this change.
+artifact.
+
+The [hosted review preview](https://jeremi.github.io/bb-analytics/) is published
+from `docs/govstack-site-rendering` on `jeremi/bb-analytics` only. It is an
+unofficial draft for review. The Pages workflow does not deploy from Hendrik's
+fork or the GovStack repository.
 See `specification-site/README.md` for output paths and publication metadata.
 
 ## Repo Structure
